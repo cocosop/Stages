@@ -1,0 +1,36 @@
+.banner
+{
+    background-image: url('../../../assets/background/illbg3.jpeg');
+    height: 720px;
+    background-position: center top;
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+
+}
+
+.btn-outline-light{
+    border-radius: 50px;
+    border: solid 2px #fff;
+   
+}
+.p-text{
+    font-weight: bold; 
+    text-align: center ; 
+    font-size: xxx-large; 
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.group-button{
+    margin-left: 550px;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.contentImage{
+    margin-top: 160px;
+}

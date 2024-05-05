@@ -1,0 +1,43 @@
+<div class="parent">
+    <div class="container" [ngClass]="isSignDivVisiable ? 'active' :'' " id="container">
+        <div class="form-container sign-up">
+            <form>
+                <mdb-tabs  [pills]="true">
+                    <mdb-tab  title="Etudiant"><app-signup-etudiant></app-signup-etudiant></mdb-tab>
+                    <mdb-tab  title="Employeur"><app-signup-employeur></app-signup-employeur></mdb-tab>
+                </mdb-tabs>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+
+            <form>
+                <div  style="border-radius: 50px; background-color: #147e99; height: 80px;width: 80px; margin-top: -100px; align-content: center;">
+                    <a href=""><img src="../../../assets/logo/Stagelink.png" style="height: 85px; width: 85px; "  ></a> 
+
+                </div>
+
+               <p style="font-weight: 500;">Veuillez vous connecter à votre compte</p>
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <!-- <a href="#">→ Forget Your Password? ←</a> -->
+                <button>Se Connecter</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenue!</h1>
+                    <p>Entrez vos informations pour utiliser toutes les fonctionnalités du site</p>
+                    <button type="button" class="hidden" id="login" (click)="isSignDivVisiable = false">Se Connecter</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+
+                    <h1>Salut! </h1>
+                    <p>Inscrivez-vous avec vos informations pour utiliser toutes les fonctionnalités du site</p>
+                    <button type="button" class="hidden" id="register" (click)="isSignDivVisiable = true">s'Inscrire
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
