@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MdbModalRef, MdbModalService } from 'mdb-angular-ui-kit/modal';
-import { NavBarComponent } from '../../../composants/nav-bar/nav-bar.component';
+import { NavBarComponent } from '../../../../shared/nav-bar/nav-bar.component';
 import { CommonModule } from '@angular/common';
 import { MdbTabsModule,  } from "mdb-angular-ui-kit/tabs";
 import { SignupEmployeurComponent } from '../signup-employeur/signup-employeur.component';

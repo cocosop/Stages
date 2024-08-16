@@ -1,10 +1,16 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { DashboardEtudiantComponent } from './pages/dashboard-etudiant/dashboard-etudiant.component';
-import { StagesComponent } from './pages/stages/stages.component';
-import { DashboardEntrepriseComponent } from './pages/dashboard-entreprise/dashboard-entreprise.component';
+import { HomeComponent } from '../features/home/home.component';
+import { DashboardEtudiantComponent } from '../features/dashboard-etudiant/dashboard-etudiant.component';
+import { StagesComponent } from '../features/stages/stages.component';
+import { DashboardEntrepriseComponent } from '../features/dashboard-entreprise/dashboard-entreprise.component';
+import { DashbEtudiantComponent } from './composants/dashb-etudiant/dashb-etudiant.component';
+import { ProfilEtudiantComponent } from './composants/profil-etudiant/profil-etudiant.component';
+import { DashboardComponent } from './composants/dashboard/dashboard.component';
+import { CvComponent } from './composants/cv/cv.component';
+
 
 export const routes: Routes = [
+  
 
     {
         path: '',
@@ -12,8 +18,19 @@ export const routes: Routes = [
       },
 
       {
+        path: 'stage',
+        component: StagesComponent,
+      },
+      {
         path: 'espaceEudiant',
         component: DashboardEtudiantComponent,
+        children: [
+          { path: 'dashboard', component:DashboardComponent },
+          { path: 'profilEtudiant', component: ProfilEtudiantComponent },
+          { path: 'candidatures', component:DashbEtudiantComponent },
+          { path: 'cv', component:CvComponent },
+          { path: 'modifierMotdePasse', component: ProfilEtudiantComponent },
+        ]
       },
 
       {
@@ -21,8 +38,8 @@ export const routes: Routes = [
         component: DashboardEntrepriseComponent,
       },
 
-      {
-        path: 'stage',
-        component: StagesComponent,
-      },
+    
+    
+         
+        
 ];

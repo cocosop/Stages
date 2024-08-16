@@ -1,0 +1,81 @@
+.banner
+{
+    background-image: url('../../assets/background/illbg3.jpeg');
+    height: 720px;
+    background-position: center top;
+    background-size:cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+
+}
+
+.btn-outline-light{
+    border-radius: 50px;
+    border: solid 2px #fff;
+   
+}
+.p-text{
+    font-weight: bold; 
+    text-align: center ; 
+    font-size: xxx-large; 
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.group-button {
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre les boutons horizontalement */
+    align-items: center; /* Centre les boutons verticalement */
+    flex-wrap: wrap; /* Permet aux boutons de passer à la ligne suivante sur de petits écrans */
+  }
+
+button{
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 200px;
+    
+}
+
+.contentImage{
+    margin-top: 160px;
+}
+
+
+
+.text1{
+    margin-top: 50px; 
+    display: flex; 
+    flex-direction: row;
+}
+
+.text2{
+    margin-top: 50px; 
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 150px;
+}
+.img1{
+    height: auto;
+    width: 600px;
+    aspect-ratio: 1280 / 720;  
+    margin-left: 10px;
+}
+
+.img2{
+    height: auto;
+    width: 600px;
+    aspect-ratio: 1280 / 720;  
+    margin-left: 100px;
+}
+.para1{
+    margin-right: 200px; 
+    margin-left: 100px; 
+    width: 500px;
+    
+}
+
+.para2{
+    margin-left: 100px;
+    margin-right: -1000px;
+    width: 500px;
+    
+}

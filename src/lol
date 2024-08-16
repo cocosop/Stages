@@ -1,0 +1,80 @@
+
+  <!-- En-tête de la page -->
+ <app-navbarc></app-navbarc>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Barre latérale -->
+      <div class=" d-md-block " style="background-color: #024454; width: 327px; height: 620px;" >
+        <div >
+            <!-- Sidebar -->
+        
+            <div class="h-100 " >
+                
+                <!-- Sidebar Navigation -->
+                <ul class="sidebar-nav">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-journal-richtext"></i>
+                              Mon Dashboard
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-person"></i>
+                             Profil
+                        </a>
+                    </li>    
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-file-earmark-person"></i>
+                             Mon CV
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-envelope"></i>
+                                                        Mes Candidatures
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-lock"></i>
+                                Modifier mon mot de passe
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="bi bi-trash"></i>
+                            Supprimer mon profil
+                        </a>
+                    </li>
+                    <li class="sidebar-item" style="margin-top: 228px;">
+                        <a style="color: white;">
+                            <img src="https://secure.gravatar.com/avatar/15408138d5e4ba95c780c0b60e412be3?s=54&d=mm&r=g" style="border-radius: 50%;">
+                            corineSop
+                            <i class="bi bi-caret-down"></i>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+          
+        </div>
+      </div>
+
+      <!-- Contenu principal -->
+      <div class="col-md-9 ml-sm-auto " style="background-color: #ddeaf2 ;width: 1185px; ">
+        <!-- Votre contenu ici -->
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+

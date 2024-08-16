@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterModule, Routes,RouterLinkActive } from '@angular/router';
-import { DashboardEntrepriseComponent } from '../../../pages/dashboard-entreprise/dashboard-entreprise.component';
+import { DashboardEntrepriseComponent } from '../../../../features/dashboard-entreprise/dashboard-entreprise.component';
 
 @Component({
   selector: 'app-signup-employeur',
